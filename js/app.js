@@ -235,7 +235,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- 2. SINGLE PAGE ROUTER ---
-
   function initRouter() {
     // Nav links event delegation
     document.addEventListener('click', (e) => {
