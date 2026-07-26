@@ -7,7 +7,6 @@ RUN mvn dependency:go-offline -B
 COPY src ./src
 # Build the Spring Boot application JAR
 RUN mvn clean package -DskipTests
-
 # Run stage
 FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
